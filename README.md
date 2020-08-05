@@ -1,2 +1,2 @@
 # rancher-charts
-Rancher enhanced helm charts
+Rancher-ized helm charts
