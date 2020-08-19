@@ -3,7 +3,7 @@ entries:
   awx:
   - apiVersion: v1
     appVersion: 8.0.0
-    created: "2020-08-06T15:23:41.809613-07:00"
+    created: 2020-08-19T15:35:38.099718-07:00
     description: AWX provides a web-based user interface, REST API, and task engine
       built on top of Ansible. It is the upstream project for Tower, a commercial
       derivative of AWX.
@@ -28,7 +28,7 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: lts
-    created: "2020-08-06T15:23:41.81282-07:00"
+    created: 2020-08-19T15:35:38.103194-07:00
     description: Open source continuous integration server. It supports multiple SCM
       tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
       Maven-based projects as well as arbitrary scripts.
@@ -57,4 +57,23 @@ entries:
     urls:
     - https://github.com/etoddatkins/rancher-charts/jenkins-2.3.0.tgz
     version: 2.3.0
-generated: "2020-08-06T15:23:41.804527-07:00"
+  nginx-ingress:
+  - apiVersion: v1
+    appVersion: 1.8.1
+    created: 2020-08-19T15:35:38.105607-07:00
+    description: NGINX Ingress Controller
+    digest: 80213a59db4bdabd4ae409de0d1092cf0d33101346c7e20e3fc6a2c25bdae97c
+    icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.8.1/deployments/helm-chart/chart-icon.png
+    keywords:
+    - ingress
+    - nginx
+    maintainers:
+    - email: kubernetes@nginx.com
+      name: NGINX Kubernetes Team
+    name: nginx-ingress
+    sources:
+    - https://github.com/nginxinc/kubernetes-ingress/tree/v1.8.1/deployments/helm-chart
+    urls:
+    - https://github.com/etoddatkins/rancher-charts/nginx-ingress-0.6.1.tgz
+    version: 0.6.1
+generated: 2020-08-19T15:35:38.090387-07:00
