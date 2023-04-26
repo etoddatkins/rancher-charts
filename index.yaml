@@ -3,7 +3,7 @@ entries:
   awx:
   - apiVersion: v2
     appVersion: 11.2.0
-    created: "2023-04-25T21:47:06.625373-07:00"
+    created: "2023-04-25T21:50:29.727298-07:00"
     description: AWX provides a web-based user interface, REST API, and task engine
       built on top of Ansible. It is the upstream project for Tower, a commercial
       derivative of AWX.
@@ -25,4 +25,15 @@ entries:
     urls:
     - awx-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-25T21:47:06.621287-07:00"
+  runzero:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-25T21:50:29.727596-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 5a341d9b34a69d3724678800c8765b7eed9b70ec01c872b741c196d31f83893e
+    name: runzero
+    type: application
+    urls:
+    - runzero-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-04-25T21:50:29.723249-07:00"
