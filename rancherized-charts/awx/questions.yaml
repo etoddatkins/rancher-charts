@@ -1,1 +1,23 @@
 ---
+questions:
+  - variable: web.replicaCount
+    default: 1
+    description: Number of pod replicas
+    label: AWX Tower Replicas
+    required: true
+  - variable: web.secret_key
+    description: Tower secret key
+    required: false
+    label: Tower Secret Key
+  - variable: web.default_admin_user
+    default: admin
+    description: Tower administrative user
+    required: true
+    label: Tower Admin User
+  - variable: web.default_admin_passwd
+    description: Tower administrative password
+    required: false
+    label: Tower Admin Password
+  - variable: web.service.port
+    description: Service Port
+    required: false
