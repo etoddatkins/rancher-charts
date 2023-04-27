@@ -3,10 +3,11 @@ entries:
   docker-registry:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2023-04-27T13:46:33.291525-07:00"
+    created: "2023-04-27T14:26:17.926895-07:00"
     description: A simple private docker registry
-    digest: f3340a59665a5bb4b88e01adc59f2e7ffadfb773666467c7528d78a01f05ebdd
+    digest: 58e815e1e594b26a3dc272cfcd0a20e60838eac74eb8098fb3fe4637bfd9a535
     home: https://github.com/etoddatkins/rancher-charts/tree/master/rancherized-charts/docker-registry
+    icon: https://www.cloudron.io/store/icons/com.docker.registry.png
     keywords:
     - docker
     - registry
@@ -17,12 +18,12 @@ entries:
     sources:
     - https://github.com/etoddatkins/rancher-charts
     urls:
-    - docker-registry-0.1.0.tgz
-    version: 0.1.0
+    - docker-registry-0.2.0.tgz
+    version: 0.2.0
   runzero:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-04-27T13:46:33.292098-07:00"
+    created: "2023-04-27T14:26:17.927514-07:00"
     description: A Helm chart for Kubernetes
     digest: 5a341d9b34a69d3724678800c8765b7eed9b70ec01c872b741c196d31f83893e
     name: runzero
@@ -30,4 +31,4 @@ entries:
     urls:
     - runzero-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-27T13:46:33.290685-07:00"
+generated: "2023-04-27T14:26:17.926317-07:00"
