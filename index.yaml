@@ -1,110 +1,17 @@
 apiVersion: v1
 entries:
-  docker-registry:
-  - apiVersion: v1
-    appVersion: 2.0.0
-    created: "2023-05-02T17:31:38.537828-07:00"
-    description: A simple private docker registry
-    digest: 9b3573238e146669f9cc4154b3100522e4a14e915a1653c324ed5d3d0607f128
-    home: https://github.com/etoddatkins/rancher-charts/tree/master/rancherized-charts/docker-registry
-    icon: https://www.cloudron.io/store/icons/com.docker.registry.png
-    keywords:
-    - docker
-    - registry
-    maintainers:
-    - name: E. Todd Atkins
-      url: https://github.com/etoddatkins
-    name: docker-registry
-    sources:
-    - https://github.com/etoddatkins/rancher-charts
-    urls:
-    - docker-registry-0.6.0.tgz
-    version: 0.6.0
-  - apiVersion: v1
-    appVersion: 2.0.0
-    created: "2023-05-02T17:31:38.537649-07:00"
-    description: A simple private docker registry
-    digest: ff76198cf952d1c60e71ebfc6e82ec9897bee4671ba9ed6cbf22a721895b6289
-    home: https://github.com/etoddatkins/rancher-charts/tree/master/rancherized-charts/docker-registry
-    icon: https://www.cloudron.io/store/icons/com.docker.registry.png
-    keywords:
-    - docker
-    - registry
-    maintainers:
-    - name: E. Todd Atkins
-      url: https://github.com/etoddatkins
-    name: docker-registry
-    sources:
-    - https://github.com/etoddatkins/rancher-charts
-    urls:
-    - docker-registry-0.5.0.tgz
-    version: 0.5.0
-  - apiVersion: v1
-    appVersion: 2.0.0
-    created: "2023-05-02T17:31:38.537173-07:00"
-    description: A simple private docker registry
-    digest: d4cd9cccd61d37f8ce18e62fa113d4c2fc638a0db3b51f735e42c69b59e79f5f
-    home: https://github.com/etoddatkins/rancher-charts/tree/master/rancherized-charts/docker-registry
-    icon: https://www.cloudron.io/store/icons/com.docker.registry.png
-    keywords:
-    - docker
-    - registry
-    maintainers:
-    - name: E. Todd Atkins
-      url: https://github.com/etoddatkins
-    name: docker-registry
-    sources:
-    - https://github.com/etoddatkins/rancher-charts
-    urls:
-    - docker-registry-0.4.0.tgz
-    version: 0.4.0
-  - apiVersion: v1
-    appVersion: 2.0.0
-    created: "2023-05-02T17:31:38.536761-07:00"
-    description: A simple private docker registry
-    digest: f09b216058595e3991342c92e77e372a3541a8dc07d49a562d5ed521163562e6
-    home: https://github.com/etoddatkins/rancher-charts/tree/master/rancherized-charts/docker-registry
-    icon: https://www.cloudron.io/store/icons/com.docker.registry.png
-    keywords:
-    - docker
-    - registry
-    maintainers:
-    - name: E. Todd Atkins
-      url: https://github.com/etoddatkins
-    name: docker-registry
-    sources:
-    - https://github.com/etoddatkins/rancher-charts
-    urls:
-    - docker-registry-0.3.0.tgz
-    version: 0.3.0
-  - apiVersion: v1
-    appVersion: 2.0.0
-    created: "2023-05-02T17:31:38.536336-07:00"
-    description: A simple private docker registry
-    digest: 58e815e1e594b26a3dc272cfcd0a20e60838eac74eb8098fb3fe4637bfd9a535
-    home: https://github.com/etoddatkins/rancher-charts/tree/master/rancherized-charts/docker-registry
-    icon: https://www.cloudron.io/store/icons/com.docker.registry.png
-    keywords:
-    - docker
-    - registry
-    maintainers:
-    - name: E. Todd Atkins
-      url: https://github.com/etoddatkins
-    name: docker-registry
-    sources:
-    - https://github.com/etoddatkins/rancher-charts
-    urls:
-    - docker-registry-0.2.0.tgz
-    version: 0.2.0
-  runzero:
+  runZeroExplorer:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-05-02T17:31:38.538449-07:00"
+    appVersion: 3.8.1
+    created: "2023-05-12T16:33:11.50434-07:00"
     description: A Helm chart for Kubernetes
-    digest: 5a341d9b34a69d3724678800c8765b7eed9b70ec01c872b741c196d31f83893e
-    name: runzero
+    digest: 82d12d1abdb8b3d61fa196cb5fbc9fd16c74022337ebd835ec45b4c3b67b7b56
+    maintainers:
+    - email: etoddatkins@ucsb.edu
+      name: E. Todd Atkins
+    name: runZeroExplorer
     type: application
     urls:
-    - runzero-0.1.0.tgz
+    - runZeroExplorer-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-02T17:31:38.535528-07:00"
+generated: "2023-05-12T16:33:11.50392-07:00"
