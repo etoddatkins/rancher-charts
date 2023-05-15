@@ -3,15 +3,15 @@ entries:
   runzero-explorer:
   - apiVersion: v2
     appVersion: 3.8.1
-    created: "2023-05-15T11:47:19.250399-07:00"
+    created: "2023-05-15T13:32:05.414439-07:00"
     description: A Helm chart for Kubernetes
-    digest: 73abfe4fd8b00cfa44885af25cbc197aa734f4a175196d005447182131c7f50c
+    digest: 567f8bcf6b54ded0e33d52a0e901c0e77325e003def04a41936a21fc878423fd
     maintainers:
     - email: etoddatkins@ucsb.edu
       name: E. Todd Atkins
     name: runzero-explorer
     type: application
     urls:
-    - runzero-explorer-0.2.1.tgz
-    version: 0.2.1
-generated: "2023-05-15T11:47:19.249967-07:00"
+    - runzero-explorer-0.3.0.tgz
+    version: 0.3.0
+generated: "2023-05-15T13:32:05.413883-07:00"
