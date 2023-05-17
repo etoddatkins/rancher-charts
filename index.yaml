@@ -1,9 +1,34 @@
 apiVersion: v1
 entries:
+  awx:
+  - apiVersion: v1
+    appVersion: 8.0.0
+    created: "2023-05-17T13:27:11.065485-07:00"
+    description: AWX provides a web-based user interface, REST API, and task engine
+      built on top of Ansible. It is the upstream project for Tower, a commercial
+      derivative of AWX.
+    digest: 18333d5cbfd4363064b19716d025089165e5c6dfd87f5e78f4242e31a9514e2d
+    home: https://github.com/AdWerx/charts/tree/master/awx
+    icon: https://adwerx-public.s3.amazonaws.com/awx.png
+    keywords:
+    - ansible
+    - awx
+    - tower
+    - devops
+    - automation
+    maintainers:
+    - name: Josh Bielick
+      url: https://github.com/jbielick
+    name: awx
+    sources:
+    - https://github.com/AdWerx/charts
+    urls:
+    - awx-2.2.3.tgz
+    version: 2.2.3
   runzero-explorer:
   - apiVersion: v2
     appVersion: 3.8.1
-    created: "2023-05-15T14:09:21.6506-07:00"
+    created: "2023-05-17T13:27:11.065979-07:00"
     description: A Helm chart for Kubernetes
     digest: 265888ea3ec3184c716604e6dd204e07348ba69d114e186d9a8a578a55eaa826
     maintainers:
@@ -14,4 +39,4 @@ entries:
     urls:
     - runzero-explorer-0.4.0.tgz
     version: 0.4.0
-generated: "2023-05-15T14:09:21.650269-07:00"
+generated: "2023-05-17T13:27:11.061957-07:00"
