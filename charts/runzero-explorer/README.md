@@ -34,8 +34,6 @@
 
 | field | description | default |
 |-|-|-|
-| `imagePullSecrets.enabled`| if true use the list of named imagePullSecrets | false |
-| `imagePullSecrets.value`| a list if named secret references of the form `- name: secretName`| [] |
 | `image.repository` | the repository of the image |  |
 | `image.tag`| the tag of the image to use |  |
 | `image.pullPolicy` | the image pull policy to use | IfNotPresent |
