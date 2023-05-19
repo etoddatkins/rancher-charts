@@ -1,0 +1,29 @@
+---
+questions:
+  - variable: hostname
+    default: private-registry.local
+    description:
+    label:
+    required: true
+  - variable: image.repository
+    default: registry
+    description:
+    label:
+    required: true
+  - variable: image.tag
+    default: 2
+    description:
+    label:
+    required: true
+  - variable: storageSize
+    default: 20Gi
+    description:
+    label:
+    required: true
+  # - variable: use_tls
+  #   default: false
+  #   label:
+  #   description:
+  # - variable: tls_secretname
+  #   default: docker-registry-tls
+  #   description: Name of Kubernetes secret containing TLS information
