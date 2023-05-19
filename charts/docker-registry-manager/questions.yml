@@ -1,0 +1,52 @@
+---
+questions:
+  - variable: ingress.enabled
+    default: true
+    description: Enable ingress
+    label:
+    required: false
+  - variable: ingress.hostname
+    default: registry-manager.example.com
+    description: Registry hostname
+    label:
+    required: true
+  - variable: service.name
+    default: web
+    description: Service name
+    label:
+    required: false
+  - variable: service.port
+    default: 8080
+    description: Service port
+    label:
+    required: false
+  - variable: registries.name
+    default: repo1
+    description: Registry Name
+    label:
+    required: false
+  - variable: registries.displayname
+    default:
+    description:
+    label:
+    required: false
+  - variable: registries.url
+    default:
+    description:
+    label:
+    required: true
+  - variable: registries.port
+    default: 443
+    description: Registry port
+    label:
+    required: true
+  - variable: registries.username
+    default:
+    description: Registry username
+    label:
+    required: false
+  - variable: registries.password
+    default:
+    description: Registry password
+    label:
+    required: false
