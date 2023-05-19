@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  docker-registry:
+  - apiVersion: v1
+    appVersion: 2.0.0
+    created: "2023-05-19T20:59:34.62737108Z"
+    description: A simple private docker registry
+    digest: 627006a2060dfd0c9d681491d109ab6c96996ccb98b0a0f1343bb8192a94494a
+    home: https://github.com/etoddatkins/rancher-charts/tree/master/rancherized-charts/docker-registry
+    icon: https://www.cloudron.io/store/icons/com.docker.registry.png
+    keywords:
+    - docker
+    - registry
+    maintainers:
+    - name: E. Todd Atkins
+      url: https://github.com/etoddatkins
+    name: docker-registry
+    sources:
+    - https://github.com/etoddatkins/rancher-charts
+    urls:
+    - https://github.com/etoddatkins/rancher-charts/releases/download/docker-registry-0.6.0/docker-registry-0.6.0.tgz
+    version: 0.6.0
+generated: "2023-05-19T20:59:34.627437786Z"
