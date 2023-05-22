@@ -5,7 +5,7 @@ questions:
     description: Enable ingress
     label:
     required: false
-  - variable: ingress.hostname
+  - variable: ingress.hosts.host
     default: registry-manager.example.com
     description: Registry hostname
     label:
