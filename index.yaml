@@ -23,6 +23,15 @@ entries:
   docker-registry-manager:
   - apiVersion: v1
     appVersion: 3.0.3
+    created: "2023-05-22T17:45:51.846248353Z"
+    digest: c96e0902c047fe6214d45c8f53636324e3e4300c9ab83938889d00404cddc028
+    icon: https://www.cloudron.io/store/icons/com.docker.registry.png
+    name: docker-registry-manager
+    urls:
+    - https://github.com/etoddatkins/rancher-charts/releases/download/docker-registry-manager-1.0.1/docker-registry-manager-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
+    appVersion: 3.0.3
     created: "2023-05-19T23:15:40.932963113Z"
     digest: e7e545cbc61a66e58c8043efee5d2b450772def373365c38de46dffc81a3c523
     icon: https://www.cloudron.io/store/icons/com.docker.registry.png
@@ -44,4 +53,4 @@ entries:
     urls:
     - https://github.com/etoddatkins/rancher-charts/releases/download/runzero-explorer-0.6.0/runzero-explorer-0.6.0.tgz
     version: 0.6.0
-generated: "2023-05-19T23:15:40.933849321Z"
+generated: "2023-05-22T17:45:51.846258853Z"
