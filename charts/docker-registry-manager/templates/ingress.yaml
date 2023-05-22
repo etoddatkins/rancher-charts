@@ -16,5 +16,5 @@ spec:
         backend:
           serviceName: {{ .Chart.Name }} 
           servicePort: {{ .Values.service.port }}
+        pathType: Prefix  
 {{- end -}}
-
